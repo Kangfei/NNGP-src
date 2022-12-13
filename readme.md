@@ -1,9 +1,9 @@
 Lightweight and Accurate Cardinality Estimation by Neural Network Gaussian Process
 -----------------
-Implementation of the Neural Network Gaussian Process (NNGP) Estimator, as described in our paper: Lightweight and Accurate Cardinality Estimation by Neural Network Gaussian Process [PDF](https://dl.acm.org/doi/abs/10.1145/3514221.3526156)
+Implementation of the Neural Network Gaussian Process (NNGP) Estimator, as described in our paper: [Lightweight and Accurate Cardinality Estimation by Neural Network Gaussian Process](https://dl.acm.org/doi/abs/10.1145/3514221.3526156)
 
 
-## Project Structure
+### Project Structure
 - active: Active Learning Implementations
 - baselines: Several Implementations of Baselines
 - dnn: Neural Network Baselines 
@@ -12,7 +12,7 @@ Implementation of the Neural Network Gaussian Process (NNGP) Estimator, as descr
 
 
 
-#### Requirements
+### Requirements
 This project is tested on:
 ```
 python 3.7
@@ -33,7 +33,7 @@ conda env create -f nngp.yaml
 conda activate nngp
 ```
 
-#### Quick start with forest
+### Quick start with forest
 Download the forest data [forest](https://archive.ics.uci.edu/ml/datasets/Covertype) and rename the csv file to 'forest.csv'.
 To test forest queries:
 ```
